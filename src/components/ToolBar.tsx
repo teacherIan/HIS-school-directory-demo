@@ -15,10 +15,10 @@ function ToolBar({ setPlayVideo }: { setPlayVideo: (value: boolean) => void; }) 
 
     return (
         <>
-            <div className=" m-2 card w-1/2 h-25  bg-accent text-base-300 bg-opacity-100 border-base-300 border-4 shadow-2xl">
+            <div className="md:h-28 m-2 card w-1/2 h-11  bg-accent text-base-300 bg-opacity-100 border-base-300 border-4 shadow-2xl">
                 <img src={hisLogo} className='p-2 ' />
                 <div className="card-body">
-                    <h1 className='text-xl h-2 font-bold'>Directory</h1>
+                    {/* <h1 className='text-xl h-2 font-bold'>Directory</h1> */}
 
                 </div>
             </div>

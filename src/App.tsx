@@ -10,7 +10,6 @@ function App() {
   const [playVideo, setPlayVideo] = useState(false)
 
   return (
-
     <div>
       {/** Background Image todo: make into component to allow multiple start locations */}
       {playVideo ? <Video setPlayVideo={setPlayVideo} /> :
