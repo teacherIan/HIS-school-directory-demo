@@ -1,3 +1,4 @@
+//@ts-expect-error no actual error here...
 import vid from '../assets/theBox.m4v'
 import '../index.css'
 
