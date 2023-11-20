@@ -7,10 +7,10 @@ function ToolBar({ setPlayVideo }: { setPlayVideo: (value: boolean) => void; }) 
 
     {/** Floor locations.  TODO: add to external js file for storage */ }
     const firstFloor = ["LS Library", "US Library", "Nurses Office", "Elevator"]
-    const secondFloor = ["Box", "Grade 2", "Grade 3", "Languages", "Another Thing", "Another, Another Thing"]
-    const thirdFloor = ["LS Library", "US Library", "Nurses Office", "Elevator"]
-    const forthFloor = ["LS Library", "US Library", "Nurses Office", "Elevator"]
-    const fifthFloor = ["LS Library", "US Library", "Nurses Office", "Elevator"]
+    const secondFloor = ["Box", "Grade 2", "Grade 3", "Languages", "Tech Shack"]
+    const thirdFloor = ["Grade 4", "LS Languages", "US Languages", "Grade 6"]
+    const forthFloor = ["Grade 5", "US Library", "Nurses Office", "Design Tech"]
+    const fifthFloor = ["LS Library", "VR Lab", "HS Classrooms", "Science Lab"]
 
 
     return (
